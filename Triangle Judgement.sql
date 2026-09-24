@@ -1,4 +1,4 @@
-# Author : _Ahmed _Nageh
+# Author : Ahmed_NAGE7
 SELECT x,y,z,
     CASE
         WHEN GREATEST(x,y,z) < (x+y+z) - GREATEST(x,y,z) THEN 'Yes'
